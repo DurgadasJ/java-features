@@ -25,6 +25,7 @@ public class JavaService {
         // Example of using a Java feature
         ArrayList<Employee> employees = new ArrayList<>();
 
+        employees.add(new Employee("John Doe1", "New York1", 50000));
         employees.add(new Employee("John Doe", "New York", 50000));
         employees.add(new Employee("Jane Smith", "Chicago", 60000));
         employees.add(new Employee("Alice Johnson", "Chicago", 70000));
