@@ -18,4 +18,14 @@ public class JavaController {
         return javaService.executeJavaFeature();
 
     }
+
+    @GetMapping("/")
+    public String root() {
+        return "App is running!";
+    }
+
+    @GetMapping("/hello")
+    public String hello() {
+        return "Hello QAJOE";
+    }
 }
